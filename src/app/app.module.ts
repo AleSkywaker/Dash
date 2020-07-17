@@ -9,6 +9,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { DoughnutComponent } from './charts/doughnut/doughnut.component';
 import { DoughnutNg2ChartsComponent } from './charts/doughnut-ng2-charts/doughnut-ng2-charts.component';
+import { TableComponent } from './charts/table/table.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DoughnutNg2ChartsComponent } from './charts/doughnut-ng2-charts/doughnu
     SidebarComponent,
     NavbarComponent,
     DoughnutComponent,
-    DoughnutNg2ChartsComponent
+    DoughnutNg2ChartsComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
